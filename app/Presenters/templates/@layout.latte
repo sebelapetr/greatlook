@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{ifset title}{include title|stripHtml} | {/ifset}Great Look | BIOCOSMETICS by Rita</title>
+	<link rel="stylesheet" href="{$basePath}/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{$basePath}/css/flexslider.css">
+	<link rel="stylesheet" href="{$basePath}/css/jquery.fancybox.css">
+	<link rel="stylesheet" href="{$basePath}/css/main.css">
+	<link rel="stylesheet" href="{$basePath}/css/responsive.css">
+	<link rel="stylesheet" href="{$basePath}/css/font-icon.css">
+	<link rel="stylesheet" href="{$basePath}/css/animate.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	{include content}
+
+	{block scripts}
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="{$basePath}/js/bootstrap.min.js"></script>
+		<script src="{$basePath}/js/jquery.flexslider-min.js"></script>
+		<script src="{$basePath}/js/jquery.fancybox.pack.js"></script>
+		<script src="{$basePath}/js/retina.min.js"></script>
+		<script src="{$basePath}/js/modernizr.js"></script>
+		<script src="{$basePath}/js/main.js"></script>
+		<script type="text/javascript" src="{$basePath}/js/jquery.contact.js"></script>
+	{/block}
+</body>
+</html>

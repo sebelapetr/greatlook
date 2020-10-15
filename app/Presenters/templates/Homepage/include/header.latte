@@ -1,0 +1,33 @@
+<section class="banner" role="banner">
+    <header id="header">
+        <div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
+        <div class="header-content clearfix">
+            <a class="logo" href="index.html">
+                <img src="{$basePath}/images/logo.svg" height="40"/>
+            </a>
+            <nav class="navigation" role="navigation">
+                <ul class="primary-nav">
+                    <li><a href="#uvod">Úvod</a></li>
+                    <li><a href="#intro">Poradenství</a></li>
+                    <li><a href="#services">Služby</a></li>
+                    <li><a href="#package">Ceník</a></li>
+                    <li><a href="#gallery">Galerie</a></li>
+                    <li><a href="#teams">Tým</a></li>
+                    <li><a href="#testimonials">Formulář</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+    </header>
+    <!-- banner text -->
+    <div class="container" id="uvod">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="banner-text text-center">
+                <h1>Beauty SPA</h1>
+                <p>Lorem ipsum dolor sit ametcursus magna vel ipsum dolor sit amet scelerisque<br/>
+                    Lorem consectetur adipiscing elit.<br/> </p>
+                <a href="#package" class="btn btn-large">Packages</a> </div>
+            <!-- banner text -->
+        </div>
+    </div>
+</section>
