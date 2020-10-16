@@ -1,4 +1,4 @@
-<section class="banner" role="banner">
+<section class="banner eberlin-banner" role="banner">
     <header id="header">
         <div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
         <div class="header-content clearfix">
@@ -7,14 +7,14 @@
             </a>
             <nav class="navigation" role="navigation">
                 <ul class="primary-nav">
-                    <li><a href="#uvod">Domů</a></li>
+                    <li><a n:href="Homepage:">Domů</a></li>
                     <li><a n:href="Homepage:eberlin">Eberlin</a></li>
-                    <li><a href="#intro">Poradenství</a></li>
-                    <li><a href="#services">Služby</a></li>
-                    <li><a href="#package">Ceník</a></li>
-                    <li><a href="#gallery">Galerie</a></li>
-                    <li><a href="#teams">Tým</a></li>
-                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a n:href="Homepage:#intro">Poradenství</a></li>
+                    <li><a n:href="Homepage:#services">Služby</a></li>
+                    <li><a n:href="Homepage:#package">Ceník</a></li>
+                    <li><a n:href="Homepage:#gallery">Galerie</a></li>
+                    <li><a n:href="Homepage:#teams">Tým</a></li>
+                    <li><a n:href="Homepage:#contact">Kontakt</a></li>
                 </ul>
             </nav>
             <a href="#" class="nav-toggle">Menu<span></span></a> </div>
@@ -23,10 +23,10 @@
     <div class="container" id="uvod">
         <div class="col-md-10 col-md-offset-1">
             <div class="banner-text text-center">
-                <h1>Beauty SPA</h1>
+                <h1>Eberlin Biocosmetics</h1>
                 <p>Lorem ipsum dolor sit ametcursus magna vel ipsum dolor sit amet scelerisque<br/>
-                    Lorem consectetur adipiscing elit.<br/> </p>
-                <a href="#package" class="btn btn-large">Packages</a> </div>
+                    Lorem consectetur adipiscing elit...<br/> </p>
+                <a href="#services" class="btn btn-large eberlin-btn">ČÍST VÍCE</a> </div>
             <!-- banner text -->
         </div>
     </div>

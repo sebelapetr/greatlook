@@ -55,8 +55,7 @@ h5 {
 	padding: 15px 40px;
 }
 #map-overlay {
-    height:400px;
-    margin-top:-405px;
+	height: 400px;
     background-color:#f05da3;
     padding:40px;
     color: #fff;
@@ -762,4 +761,26 @@ ul.list-default li {
 	background: #ffc6ed;
 	font-weight: bold;
 	color: white;
+}
+.p-0 {
+	padding: 0;
+}
+.footer-info {
+	position: absolute;
+	bottom: 0;
+}
+.eberlin-gallery img {
+	height: 250px !important;
+}
+.eberlin p{
+	font-size: 17px;
+	line-height: 30px;
+	color: black;
+}
+.eberlin-banner {
+	background-image: url(../images/portfolio/bg-fotodepilacion.jpg);
+}
+.eberlin-btn {
+	background-color: #fd79b8;
+	color: #fff;
 }
