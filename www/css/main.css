@@ -778,9 +778,16 @@ ul.list-default li {
 	color: black;
 }
 .eberlin-banner {
-	background-image: url(../images/portfolio/bg-fotodepilacion.jpg);
+	background-image: url(../images/portfolio/bg-fotodepilacion-min.jpg);
 }
 .eberlin-btn {
 	background-color: #fd79b8;
 	color: #fff;
+}
+.services-p {
+	line-height: 28px;
+	color: black;
+}
+.text-black {
+	color: #000000;
 }
