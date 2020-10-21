@@ -307,7 +307,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .banner {
-	background-image: url(../images/banner.jpg);
+	background-image: url(../images/portfolio/banner3.png);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -317,7 +317,7 @@ ul li {
 	min-height: 750px;
 }
 .banner-text {
-	padding-top: 45%;
+	padding-top: 35%;
 }
 .banner-text h1 {
 	color: #000000;
@@ -327,12 +327,15 @@ ul li {
 	text-transform: uppercase;
 }
 .banner-text p {
-	color: #000;
-	font-size: 16px;
-	font-weight: 400;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
 	line-height: 24px;
 	margin-top: 30px;
 	margin-bottom: 80px;
+}
+.banner-text img {
+	filter: brightness(0) invert(1);
 }
 /* ==========================================================================
 	$intro
@@ -527,8 +530,7 @@ ul.list-default li {
 	margin: auto;
 }
 .person img {
-	width: 150px;
-	height: 150px;
+	width: 200px;
 	margin: auto;
 }
 .person-content {
